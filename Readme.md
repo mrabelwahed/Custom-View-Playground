@@ -8,6 +8,7 @@
     <li>Version View</li>
     <li>Photo Spiral View</li>
     <li>Pizza View</li>
+    <li>Length Picker </li>
     <li>Slide ways View</li>
    
 </ul>
