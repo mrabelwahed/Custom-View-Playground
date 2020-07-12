@@ -1,6 +1,6 @@
 # Custom View Playground
 
-![art/photo]
+![art/photo.png]
 
 ## this project has the following custom views
 
