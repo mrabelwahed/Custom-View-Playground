@@ -64,11 +64,16 @@
         app:num_widget="6"
         app:stroke_width="16dp" />
 
+    <com.ramadan.customviewplayground.views.LineAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
     <com.ramadan.customviewplayground.views.SidewaysLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:orientation="vertical" >
         <TextView
             android:layout_width="wrap_content"
@@ -95,6 +100,9 @@
             android:background="#f00"
             android:text="@string/matilda" />
     </com.ramadan.customviewplayground.views.SidewaysLayout>
+
+
+
 
 </LinearLayout>
 </ScrollView>
