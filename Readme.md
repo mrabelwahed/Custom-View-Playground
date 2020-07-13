@@ -10,5 +10,6 @@
     <li>Pizza View</li>
     <li>Length Picker </li>
     <li>Slide ways View</li>
-   
+   <li>Line Animation View</li>
+   <li>WaveLine View</li>>
 </ul>

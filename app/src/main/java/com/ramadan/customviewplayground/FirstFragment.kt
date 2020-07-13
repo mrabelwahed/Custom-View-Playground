@@ -20,7 +20,7 @@ class FirstFragment : Fragment() , LengthPicker.OnCounterChanged{
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.line_animation,container,false)
+        return inflater.inflate(R.layout.waveline,container,false)
     }
 
     override fun onChange(count: Int) {
