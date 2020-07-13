@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
     tools:context=".FirstFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <!--    <com.ramadan.customviewplayground.views.VersionView-->
-    <!--        android:id="@+id/version"-->
-    <!--        android:layout_width="100dp"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:layout_constraintBottom_toTopOf="@id/button_first"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <!--    <com.ramadan.customviewplayground.views.LengthPicker-->
-    <!--        android:id="@+id/length_picker"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginLeft="50dp"-->
-    <!--        app:layout_constraintBottom_toTopOf="@id/version"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+        <com.ramadan.customviewplayground.views.VersionView
+            android:layout_marginTop="10dp"
+            android:id="@+id/version"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+
+        <com.ramadan.customviewplayground.views.LengthPicker
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/length_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <com.ramadan.customviewplayground.views.PhotoSpiral
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -51,16 +52,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/chiang_mai" />
     </com.ramadan.customviewplayground.views.PhotoSpiral>
-
-<!--    <com.ramadan.customviewplayground.views.PizzaView-->
-<!--        android:id="@+id/pizzaView"-->
-<!--        android:layout_width="120dp"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:paddingLeft="10dp"-->
-<!--        android:paddingRight="10dp"-->
-<!--        app:color="#0f0"-->
-<!--        app:num_widget="4" />-->
 
 
     <com.ramadan.customviewplayground.views.PizzaView
@@ -105,5 +96,5 @@
             android:text="@string/matilda" />
     </com.ramadan.customviewplayground.views.SidewaysLayout>
 
-
 </LinearLayout>
+</ScrollView>

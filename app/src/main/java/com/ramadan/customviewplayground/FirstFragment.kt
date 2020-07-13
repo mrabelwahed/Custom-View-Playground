@@ -29,7 +29,7 @@ class FirstFragment : Fragment() , LengthPicker.OnCounterChanged{
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //length_picker.setCounterListener(this)
+         length_picker.setCounterListener(this)
     }
 
 }

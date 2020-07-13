@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    >
 
     <Button
         android:id="@+id/dec"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="-"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:background="#ff0000"
@@ -20,10 +18,6 @@
         android:id="@+id/value"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/dec"
-        app:layout_constraintTop_toTopOf="@id/dec"
-        app:layout_constraintBottom_toBottomOf="@id/dec"
-        android:layout_marginLeft="20dp"
         android:text="0"
         android:gravity="center"
         android:textSize="20sp"
@@ -33,14 +27,11 @@
         android:id="@+id/enc"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-       app:layout_constraintStart_toEndOf="@id/value"
-        android:layout_marginLeft="20dp"
         android:text="+"
-        app:layout_constraintTop_toTopOf="parent"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:background="#0000ff"
         />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</merge>
