@@ -1,7 +1,6 @@
 # Custom View Playground
+<img src="art/photo.png " width = "200" height = "400"
 
-![alt tag](art/photo.png)
-![alt tag](art/photo2.png)
 
 ## this project has the following custom views
 
