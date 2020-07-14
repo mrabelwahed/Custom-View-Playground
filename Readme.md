@@ -1,6 +1,10 @@
 # Custom View Playground
 
-<img src="https://github.com/mrabelwahed/Custom-View-Playground---Android---Kotlin/tree/master/art" width="400" height="790">
+<div style="display:inline;width:5px;">
+<img src ="https://github.com/mrabelwahed/Custom-View-Playground---Android---Kotlin/blob/master/art/photo.png"  width="39%"style="display:inline;">
+<img src ="https://github.com/mrabelwahed/Custom-View-Playground---Android---Kotlin/blob/master/art/photo2.png" width="39%" 
+       style="display:inline;">
+</div>
 
 ## this project has the following custom views
 
